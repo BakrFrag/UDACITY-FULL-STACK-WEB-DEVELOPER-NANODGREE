@@ -1,0 +1,4 @@
+On which days did more than of 0.01 requests lead to errors?
+
+"to_char"           "ratio"
+"July 17, 2016"     "0.0224863246797213"

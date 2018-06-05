@@ -1,0 +1,49 @@
+.project {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftlist {
+    order: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.map {
+    order: 2;
+    flex-grow: 4;
+    background-color: #0000ff;
+    text-align: center;
+    height: 1000px;
+}
+
+.marker {
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    background-color: #0000ff;
+    color: red;
+    font-size: 20px;
+    border: 7px solid rgb(10, 107, 10);
+    text-align: center;
+}
+
+
+/* .marker:hover {
+    color: goldenrod;
+    font-size: 40px;
+} */
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid green;
+}
+
+@media only screen and (max-width: 959px) {
+    .project {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <title>Map Neighbourhood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Intersted and historical places at cairo">
+    <link rel="stylesheet" href='css/style.css' type="text/css">
+</head>
+    <body>
+          <div class="project">
+           <div class="leftlist">
+           <input id="filter-text" type="text"
+            data-bind="textInput: filterlocation" size="50"
+            placeholder="search for a place">
+               <ul class="markers" 
+               data-bind="foreach:filter">
+               <li class="marker" data-bind="text:title,click:activate_it"></li>
+               </ul>
+              </div>
+              <div class="map" id="map"></div>
+        </div>
+        <script src="js/knockout.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/app_project.js"></script>
+        <script async defer
+        src=
+        "https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyCFMDrqtJPQ3UBRX9kn8m0V9utJJXDxZhE&v=3&callback=initapp" onerror="badevents()">
+    </script>
+    </body>
+</html>

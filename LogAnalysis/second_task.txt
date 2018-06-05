@@ -1,0 +1,7 @@
+Who are the most popular article authors of all time?
+
+"name"                       "count"
+"Ursula La Multa"            "507594"
+"Rudolf von Treppenwitz"     "423457"
+"Anonymous Contributor"      "170098"
+"Markoff Chaney"             "84557"
